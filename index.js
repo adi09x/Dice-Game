@@ -22,11 +22,11 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src" , randomImageSource);
 
 if(randomNumber1<randomNumber2){
-    document.querySelector("h1").innerHTML = "Prachi win";
+    document.querySelector("h1").innerHTML = "Player 2 win";
 }
 
 else if(randomNumber1>randomNumber2){
-    document.querySelector("h1").innerHTML = "Tanushka win";
+    document.querySelector("h1").innerHTML = "Player 2 win";
 }
 
 else{
